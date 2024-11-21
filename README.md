@@ -11,7 +11,7 @@ https://greenbone.github.io/docs/latest/22.4/container/index.html#installing-doc
 
 sudo openssl req -x509 -newkey rsa:4096 -keyout serverkey.pem -out servercert.pem -nodes -days 397
 
-3. Make sure the SSL key and certificate belong to the user 1001 and group 1001 byt doing:
+3. Make sure the SSL key and certificate belong to the user 1001 and group 1001 by doing:
 
 sudo chown 1001:1001 *.pem
 
