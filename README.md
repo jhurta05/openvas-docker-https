@@ -13,7 +13,7 @@ sudo openssl req -x509 -newkey rsa:4096 -keyout serverkey.pem -out servercert.pe
 
 3. After creating the SSL certificate, you have to create a folder where you will store it, this command creates a hidden folder and move the SSL keys and cert to that folder.
 
-sudo mkdir $HOME/.ssl && mv serverkey.pem servercert.pem $HOME/.ssl  
+sudo mkdir $HOME/.ssl && sudo mv serverkey.pem servercert.pem $HOME/.ssl  
 
 You can check the contents of the folder by doing cat ls -l /.ssl
 
