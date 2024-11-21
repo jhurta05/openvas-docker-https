@@ -47,7 +47,7 @@ Is important that this user has sudo privileges because only sudo users can bind
 
 You can check user and groups by using:
 
-sudo cat /etc/passwd
+sudo cat /etc/passwd | grep -i 1001
 
 If you don't have a user with ID and group 1001, you have to create one. The result should look like this:
 
