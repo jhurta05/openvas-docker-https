@@ -34,10 +34,8 @@ While you're inside the greenbone-community-container folder, you can download t
 sudo nano docker-compose.yml 
 
 Modify lines: 
-- ADD line 92 and 93.
-- Comment in with a # the line 95 and ADD line 96 for binging the web interface to port 443 (SSL).
-- ADD the lines 101 to 111.
-- ADD the lines 241 to 245, make sure that the path is pointing to the right place where the server cert and key are stored.
+- Comment in with a # the line 95.
+- Lines 241 to 245, make sure that the path is pointing to the right place where the server cert and key are stored.
 
 8. Now we should be ready to pull and run the containers, however, we are not quite reeady yet.
 
