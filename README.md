@@ -31,7 +31,9 @@ cd /greenbone-community-container
 
 7. The OpenVAS container uses a stack of containers (many containers) to work properly and syncronize feeds, but the one that handles the web interface is the GSA container and that's the one we are going to focus on.
 
-While you're inside the greenbone-community-container folder, you can download the docker-compose.yml file that I've modified to make this work using the following command: wget https://raw.githubusercontent.com/jhurta05/openvas-docker-https/refs/heads/main/docker-compose.yml?token=GHSAT0AAAAAAC2YMK6X2DMTKKNIEXVTMWB6ZZ7QK7Q
+While you're inside the greenbone-community-container folder, you can download the docker-compose.yml file that I've modified to make this work using the following command: 
+
+wget https://raw.githubusercontent.com/jhurta05/openvas-docker-https/refs/heads/main/docker-compose.yml
 
 8. After you have download the docker-compose.yml file, you have to modify the following lines:
 
