@@ -34,7 +34,6 @@ While you're inside the greenbone-community-container folder, you can download t
 sudo nano docker-compose.yml 
 
 Modify lines: 
-- Comment in with a # the line 95.
 - Lines 241 to 245, make sure that the path is pointing to the right place where the server cert and key are stored.
 
 8. Now we should be ready to pull and run the containers, however, we are not quite reeady yet.
