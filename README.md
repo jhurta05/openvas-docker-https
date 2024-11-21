@@ -7,7 +7,7 @@ The steps of how to enable HTTPS are also here https://greenbone.github.io/docs/
 
 https://greenbone.github.io/docs/latest/22.4/container/index.html#installing-docker
 
-2. AFter you have docker up and running, you have to create the SSL certificate that will be used by the OpenVAS web interface.
+2. After you have docker up and running, you have to create the SSL certificate that will be used by the OpenVAS web interface.
 
 sudo openssl req -x509 -newkey rsa:4096 -keyout serverkey.pem -out servercert.pem -nodes -days 397
 
